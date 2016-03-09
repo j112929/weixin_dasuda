@@ -1,4 +1,4 @@
-$json = '{"group":{"name":"≈Û”—"}}';
+$json = '{"group":{"name":"ÊúãÂèã"}}';
 $url = "https://api.weixin.qq.com/cgi-bin/groups/create?access_token=6j68MFz5WyxI2_xrdSj1XfjhZu7c3qTpgC8PrBznfqUbHe8kbaEe_mEDWZi2TdPYpAx9ljJNkmy1B6-A7dPe2y9L7RdwcjN2QKrhOydyOnveek111j7crIrNHzFzuKpii8VpFpizs7YGcwuangkEXg";
 $result = https_post($url,$json);
 var_dump($result);
